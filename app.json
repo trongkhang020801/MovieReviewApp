@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "MovieReviewApp",
-    "slug": "MovieReviewApp",
+    "name": "MovieReview App",
+    "slug": "MovieReview-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/movie.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/movie.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/movie.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ntkhang0208.MovieReviewApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d0949f8-d54e-444b-931d-eb50edfc4132"
+      }
     }
   }
 }
