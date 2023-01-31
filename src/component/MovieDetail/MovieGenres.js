@@ -44,7 +44,6 @@ const _styles = StyleSheet.create({
 
   text: {
     color: darkBlue,
-    // fontFamily: "Montserrat-Light",
     fontSize: 12,
   },
 });

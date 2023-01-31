@@ -8,7 +8,6 @@ import { orange, lightGray } from "../helper/Color";
 import MovieList from "../component/MovieList";
 import Icon from "@expo/vector-icons/Ionicons";
 import BackIcon from "../component/Utils/BackIcon";
-import SearchIcon from "../assets/icons/search_icon.png"
 class SearchScreen extends Component {
   constructor(props) {
     super(props);
